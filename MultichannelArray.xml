@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ambiscore>
+	<snapshot index="Line">
+		<point>
+			<number>2</number>
+			<xyz>-0.707107 0.707107 0.000000</xyz>
+		</point>
+		<point>
+			<number>1</number>
+			<xyz>0.200000 0.300000 0.400000</xyz>
+		</point>
+	</snapshot>
+	<snapshot index="linedrive">
+		<point>
+			<number>2</number>
+			<xyz>-0.200000 0.750000 0.000000</xyz>
+		</point>
+		<point>
+			<number>1</number>
+			<xyz>-0.600000 0.750000 0.000000</xyz>
+		</point>
+		<point>
+			<number>3</number>
+			<xyz>0.200000 0.750000 0.000000</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<xyz>0.600000 0.750000 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<xyz>0.600000 0.250000 0.000000</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<xyz>0.200000 0.250000 0.000000</xyz>
+		</point>
+		<point>
+			<number>6</number>
+			<xyz>-0.200000 0.250000 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<xyz>-0.600000 0.250000 0.000000</xyz>
+		</point>
+	</snapshot>
+</ambiscore>
