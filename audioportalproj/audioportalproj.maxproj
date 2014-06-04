@@ -2,8 +2,8 @@
 	"name" : "audioportalproj",
 	"version" : 1,
 	"creationdate" : -810306612,
-	"modificationdate" : -810306582,
-	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
+	"modificationdate" : -810304259,
+	"viewrect" : [ 1575.0, -97.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -17,7 +17,8 @@
 			}
 ,
 			"AudioPortal_spatialization.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"toplevel" : 1
 			}
 
 		}
