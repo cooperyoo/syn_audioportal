@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 86.0, 182.0, 940.0, 692.0 ],
+		"rect" : [ 2140.0, -107.0, 940.0, 692.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 475.5, 156.0, 20.0, 20.0 ]
+					"patching_rect" : [ 403.5, 167.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 372.0, 67.0, 18.0 ],
+					"patching_rect" : [ 217.0, 364.0, 67.0, 18.0 ],
 					"text" : "remove $1"
 				}
 
@@ -104,7 +104,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 495.0, 112.0, 50.0, 20.0 ]
+					"patching_rect" : [ 431.5, 147.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -153,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 150.0, 42.0, 18.0 ],
+					"patching_rect" : [ 481.5, 150.0, 42.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -196,7 +196,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 495.0, 195.0, 109.0, 20.0 ],
+					"patching_rect" : [ 431.5, 193.0, 109.0, 20.0 ],
 					"text" : "dot.index 10"
 				}
 
@@ -322,7 +322,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 306.0, 65.0, 20.0 ],
+					"patching_rect" : [ 146.0, 302.0, 65.0, 20.0 ],
 					"text" : "prepend 2"
 				}
 
@@ -368,7 +368,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 146.0, 168.0, 79.0, 20.0 ],
+					"patching_rect" : [ 146.0, 156.0, 79.0, 20.0 ],
 					"text" : "o.atomize /ip"
 				}
 
@@ -420,7 +420,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 504.5, 225.0, 571.0, 225.0 ],
+					"midpoints" : [ 441.0, 225.0, 571.0, 225.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -592,7 +592,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 534.5, 180.0, 504.5, 180.0 ],
+					"midpoints" : [ 491.0, 180.0, 441.0, 180.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -602,7 +602,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 504.5, 182.0, 504.5, 182.0 ],
+					"midpoints" : [ 441.0, 182.0, 441.0, 182.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -645,9 +645,16 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "audioportal.txt",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dot.index.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/MaxSearchpath/dot_20121204/data/dot.index",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/MaxSearchpath/dot_20121204/data/dot.index",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/MaxSearchpath/dot_20121204/data/dot.index",
 				"type" : "JSON",
 				"implicit" : 1
 			}
