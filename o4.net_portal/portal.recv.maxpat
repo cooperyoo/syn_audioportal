@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -148,7 +148,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.0, 331.0, 50.0, 14.0 ]
+					"patching_rect" : [ 408.0, 331.0, 50.0, 14.0 ],
+					"text" : "#1"
 				}
 
 			}
@@ -386,7 +387,7 @@
 					"patching_rect" : [ 139.0, 566.0, 158.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.5, 0.0, 158.0, 16.0 ],
-					"text" : "o4.net_recv"
+					"text" : "portal.recv"
 				}
 
 			}
@@ -700,7 +701,7 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-4",
-					"items" : [ "audio - test", ",", "testing 123" ],
+					"items" : [ "laptop office", ",", "oz test" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1267,6 +1268,27 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "zeroconf.resolve.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zeroconf.browser.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.message.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
