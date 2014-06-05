@@ -3299,7 +3299,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "audio.connect" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -3333,41 +3333,13 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
-									"patching_rect" : [ 45.0, 120.0, 83.0, 19.0 ],
-									"text" : "jcom.unpack≈"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 65.0, 113.0, 19.0 ],
+									"patching_rect" : [ 40.0, 305.0, 143.0, 19.0 ],
 									"text" : "r internalaudioportal"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-20",
-									"maxclass" : "newobj",
-									"numinlets" : 32,
-									"numoutlets" : 1,
-									"outlettype" : [ "audio.connect" ],
-									"patching_rect" : [ 40.0, 300.0, 770.0, 19.0 ],
-									"text" : "jcom.multi.in~"
 								}
 
 							}
@@ -3378,7 +3350,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 34.0, 482.0, 25.0, 25.0 ]
+									"patching_rect" : [ 40.0, 335.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -3388,7 +3360,7 @@
 									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-20", 0 ]
+									"source" : [ "obj-1", 0 ]
 								}
 
 							}
@@ -4090,13 +4062,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.multi.in~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.in%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.in%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "SpeakerStuff.maxpat",
 				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj",
 				"patcherrelativepath" : ".",
@@ -4217,10 +4182,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.offset≈.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.out.mxo",
 				"type" : "iLaX"
 			}
@@ -4234,6 +4195,10 @@
 			}
 , 			{
 				"name" : "jcom.info≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.offset≈.mxo",
 				"type" : "iLaX"
 			}
 , 			{
