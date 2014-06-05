@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -168.0, 110.0, 2102.0, 921.0 ],
+		"rect" : [ 48.0, 115.0, 2102.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 225.0, 210.0, 50.0, 58.0 ],
+					"text" : "jit_matrix u988011074"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -226,7 +241,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "FullPacket" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -388,7 +403,7 @@
 					"name" : "o4.net_recv.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
-					"outlettype" : [ "FullPacket", "FullPacket" ],
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
 					"patching_rect" : [ 1605.0, 95.0, 152.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 225.0, 152.0, 43.0 ]
@@ -551,7 +566,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "FullPacket" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -713,7 +728,7 @@
 					"name" : "o4.net_recv.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
-					"outlettype" : [ "FullPacket", "FullPacket" ],
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
 					"patching_rect" : [ 1305.0, 90.0, 152.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 330.0, 210.0, 152.0, 43.0 ]
@@ -950,7 +965,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "FullPacket" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -1112,7 +1127,7 @@
 					"name" : "o4.net_recv.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
-					"outlettype" : [ "FullPacket", "FullPacket" ],
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
 					"patching_rect" : [ 1005.0, 90.0, 152.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 330.0, 210.0, 152.0, 43.0 ]
@@ -1285,7 +1300,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "FullPacket" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -1405,7 +1420,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 705.0, 135.0, 39.0, 20.0 ],
+					"patching_rect" : [ 690.0, 140.0, 39.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1433,7 +1448,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.0, 40.0, 135.0, 40.0 ],
+					"patching_rect" : [ 690.0, 45.0, 135.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 315.0, 150.0, 135.0, 40.0 ],
 					"text" : "SOUND"
@@ -1447,24 +1462,10 @@
 					"name" : "o4.net_recv.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
-					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 705.0, 85.0, 152.0, 43.0 ],
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
+					"patching_rect" : [ 690.0, 90.0, 152.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 315.0, 195.0, 152.0, 43.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica",
-					"fontsize" : 10.0,
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 90.0, 210.0, 181.0, 16.0 ],
-					"text" : "o4.net_send \"osc - backoffice1\" 49321"
 				}
 
 			}
@@ -1476,7 +1477,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 180.0, 71.0, 16.0 ],
 					"text" : "portal.audioIn"
 				}
@@ -1491,8 +1492,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 300.0, 210.0, 190.0, 16.0 ],
-					"text" : "o4.net_send \"audio - backoffice1\" 49321"
+					"patching_rect" : [ 300.0, 225.0, 184.0, 16.0 ],
+					"text" : "o4.net_send \"audio - backoffice1\" 4932"
 				}
 
 			}
@@ -1570,10 +1571,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-22", 2 ]
+					"source" : [ "obj-22", 1 ]
 				}
 
 			}
@@ -1842,9 +1852,16 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "portal.audioIn.maxpat",
+				"bootpath" : "/Users/synthesis/syn_audioportal/o4.net_portal",
+				"patcherrelativepath" : "../../o4.net_portal",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "o4.net_recv.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4.net.ASU",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4.net.ASU",
+				"bootpath" : "/Users/synthesis/syn_audioportal/o4.net_portal",
+				"patcherrelativepath" : "../../o4.net_portal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1942,6 +1959,10 @@
 			}
 , 			{
 				"name" : "o.pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
