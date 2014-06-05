@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -32,12 +32,28 @@
 				"box" : 				{
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "o.message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 739.0, 150.0, 16.0 ],
+					"text" : "/ip \"10.142.66.137\"",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica",
+					"fontsize" : 10.0,
 					"id" : "obj-29",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 742.0, 794.0, 50.0, 14.0 ]
+					"patching_rect" : [ 742.0, 794.0, 50.0, 14.0 ],
+					"text" : "bang"
 				}
 
 			}
@@ -64,7 +80,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 875.0, 80.0, 14.0 ]
+					"patching_rect" : [ 490.0, 875.0, 92.0, 14.0 ],
+					"text" : "/ip 10.142.66.137"
 				}
 
 			}
@@ -79,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 182.0, 725.0, 50.0, 44.0 ],
-					"text" : "FullPacket 24 753489568"
+					"text" : "FullPacket 24 424295408"
 				}
 
 			}
@@ -338,7 +355,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 635.5, 871.0, 122.0, 16.0 ],
+					"patching_rect" : [ 719.0, 984.0, 122.0, 16.0 ],
 					"text" : "udpsend localhost 39032"
 				}
 
@@ -683,7 +700,7 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-4",
-					"items" : [ "audio - test", ",", "osc - test", ",", "video - test" ],
+					"items" : [ "audio - test", ",", "testing 123" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -758,6 +775,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 227.5, 180.25, 123.5, 180.25 ],
 					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
