@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1497.0, -99.0, 1862.0, 781.0 ],
+		"rect" : [ 58.0, 44.0, 1862.0, 781.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -17,7 +17,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 0,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -127,7 +127,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -397,7 +397,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -577,7 +577,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1154,7 +1154,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1633,7 +1633,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -2126,7 +2126,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -2264,7 +2264,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x86"
 										}
 ,
@@ -2945,7 +2945,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 20.0,
 					"id" : "obj-30",
-					"items" : [ "square", ",", "hexagon", ",", "octagon", ",", "3D_cube", ",", "5.1_ITU", ",", "0" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2971,7 +2971,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -3093,7 +3093,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x86"
 										}
 ,
@@ -4061,11 +4061,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1734.0, -4.0, 875.0, 553.0 ],
+						"rect" : [ 1045.0, 44.0, 875.0, 553.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -4084,279 +4084,8 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 714.0, 139.0, 101.0, 19.0 ],
-									"text" : "audioportalsend 8"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 715.0, 61.0, 97.0, 20.0 ],
-									"text" : "AUDIO_IN 2608"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-14",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 617.0, 61.0, 97.0, 20.0 ],
-									"text" : "AUDIO_IN 2607"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 617.0, 139.0, 101.0, 19.0 ],
-									"text" : "audioportalsend 7"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-16",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 520.0, 139.0, 101.0, 19.0 ],
-									"text" : "audioportalsend 6"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-17",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 520.0, 61.0, 97.0, 20.0 ],
-									"text" : "AUDIO_IN 2606"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-18",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 423.0, 61.0, 97.0, 20.0 ],
-									"text" : "AUDIO_IN 2605"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-19",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 423.0, 139.0, 101.0, 19.0 ],
-									"text" : "audioportalsend 5"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 325.0, 139.0, 101.0, 19.0 ],
-									"text" : "audioportalsend 4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-9",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 326.0, 61.0, 97.0, 20.0 ],
-									"text" : "AUDIO_IN 2604"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 228.0, 61.0, 97.0, 20.0 ],
-									"text" : "AUDIO_IN 2603"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 228.0, 139.0, 101.0, 19.0 ],
-									"text" : "audioportalsend 3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 139.0, 101.0, 19.0 ],
-									"text" : "audioportalsend 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 131.0, 61.0, 97.0, 20.0 ],
-									"text" : "AUDIO_IN 2602"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-38",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 34.0, 61.0, 97.0, 20.0 ],
-									"text" : "AUDIO_IN 2601"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 34.0, 139.0, 101.0, 19.0 ],
-									"text" : "audioportalsend 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 106.677414, 324.0, 113.0, 19.0 ],
-									"text" : "audioportalreceive 4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 82.451614, 305.0, 113.0, 19.0 ],
-									"text" : "audioportalreceive 3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 58.225807, 297.0, 113.0, 19.0 ],
-									"text" : "audioportalreceive 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 34.0, 278.0, 113.0, 19.0 ],
-									"text" : "audioportalreceive 1"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
@@ -4384,118 +4113,10 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-17", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 3 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-38", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 2 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -5196,148 +4817,127 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.sur.ambisonics~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambisonics~",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambisonics~",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.ambisonics~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambisonics~",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambisonics~",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.message.array.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/message.array",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/message.array",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.message.array.instance.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/message.array",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/message.array",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.ambipanSource.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambipanning~",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.ambipanning~",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.ambimonitor2position.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/ambimonitor2position",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/ambimonitor2position",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.multi.in~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.in%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.in%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "audioportalreceive.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "audioportalsend.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AUDIO_IN.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SpeakerStuff.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.meters~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.meters~",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.meters~",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.multi.out~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.out%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/multi.out%",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.output~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.output~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.js_systeminfo.js",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/javascript",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/javascript",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.position2ambimonitor.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/position2ambimonitor",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/position2ambimonitor",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.position.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.position",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.position",
+				"bootpath" : "/Users/synthesis/syn_audioportal/BY.AP/audioportalproj/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
