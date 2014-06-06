@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 48.0, 115.0, 2102.0, 921.0 ],
+		"rect" : [ -43.0, 79.0, 1724.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,169 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "myModule" ],
+					"id" : "obj-30",
+					"maxclass" : "bpatcher",
+					"name" : "portal.recv.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
+					"patching_rect" : [ 1605.0, 61.0, 163.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "myModule" ],
+					"id" : "obj-27",
+					"maxclass" : "bpatcher",
+					"name" : "portal.recv.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
+					"patching_rect" : [ 1305.0, 74.0, 163.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "myModule" ],
+					"id" : "obj-25",
+					"maxclass" : "bpatcher",
+					"name" : "portal.recv.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
+					"patching_rect" : [ 1005.0, 74.0, 163.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "myModule" ],
+					"id" : "obj-24",
+					"maxclass" : "bpatcher",
+					"name" : "portal.recv.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
+					"patching_rect" : [ 690.0, 65.0, 163.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 365.0, 592.5, 310.0, 234.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 365.0, 524.0, 80.0, 20.0 ],
+					"text" : "portal.viprout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 247.5, 501.0, 73.0, 20.0 ],
+					"text" : "portal.viprIn"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 1,
+					"id" : "obj-16",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.input%.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 7.0, 402.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 199.0, 442.0, 300.0, 70.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "myModule" ],
+					"id" : "obj-13",
+					"maxclass" : "bpatcher",
+					"name" : "portal.recv.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "FullPacket" ],
+					"patching_rect" : [ 365.0, 436.0, 163.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 121.0, 558.0, 161.0, 16.0 ],
+					"text" : "portal.send \"video - garitest\" 9000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "signal", "signal" ],
+					"patching_rect" : [ 763.0, 434.0, 129.0, 20.0 ],
+					"text" : "jmod.nav.stereo.rogs~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 30.0,
+					"frgb" : 0.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 197.0, 333.0, 135.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 330.0, 165.0, 135.0, 40.0 ],
+					"text" : "SOUND"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -50,7 +213,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.0, 660.0, 139.0, 20.0 ],
+					"patching_rect" : [ 690.0, 624.0, 139.0, 20.0 ],
 					"text" : "send internalaudioportal"
 				}
 
@@ -99,7 +262,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -389,24 +552,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1605.0, 50.0, 135.0, 40.0 ],
+					"patching_rect" : [ 1605.0, 21.0, 135.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 180.0, 135.0, 40.0 ],
 					"text" : "SOUND"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "bpatcher",
-					"name" : "o4.net_recv.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "FullPacket" ],
-					"patching_rect" : [ 1605.0, 95.0, 152.0, 43.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 225.0, 152.0, 43.0 ]
 				}
 
 			}
@@ -424,7 +573,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -723,20 +872,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-51",
-					"maxclass" : "bpatcher",
-					"name" : "o4.net_recv.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "FullPacket" ],
-					"patching_rect" : [ 1305.0, 90.0, 152.0, 43.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 330.0, 210.0, 152.0, 43.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 1,
 					"id" : "obj-52",
 					"maxclass" : "bpatcher",
@@ -804,7 +939,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 2,
 					"outlettype" : [ "audio.connect", "" ],
-					"patching_rect" : [ 690.0, 615.0, 1065.0, 20.0 ],
+					"patching_rect" : [ 690.0, 579.0, 1065.0, 20.0 ],
 					"text" : "jcom.pack≈ 8"
 				}
 
@@ -823,7 +958,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1122,20 +1257,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "bpatcher",
-					"name" : "o4.net_recv.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "FullPacket" ],
-					"patching_rect" : [ 1005.0, 90.0, 152.0, 43.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 330.0, 210.0, 152.0, 43.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -1158,7 +1279,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1457,20 +1578,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "bpatcher",
-					"name" : "o4.net_recv.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "FullPacket" ],
-					"patching_rect" : [ 690.0, 90.0, 152.0, 43.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 315.0, 195.0, 152.0, 43.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-19",
@@ -1562,6 +1669,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1580,10 +1714,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-22", 1 ]
+					"source" : [ "obj-22", 2 ]
 				}
 
 			}
@@ -1592,7 +1735,16 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-23", 0 ]
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -1611,6 +1763,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -1715,15 +1885,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-52", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1737,15 +1898,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -1778,15 +1930,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1798,69 +1941,132 @@
 		"dependency_cache" : [ 			{
 				"name" : "jmod.echo~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/echo~",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/echo~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/echo~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.echo~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/echo~",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/echo~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/echo~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.multidelay~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/multidelay~",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/multidelay~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/multidelay~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.multidelay~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/multidelay~",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/multidelay~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/multidelay~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/input~",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/input~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o4.net_send.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4.net.ASU",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4.net.ASU",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/MaxSearchpath/Synthesis_o4/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/MaxSearchpath/Synthesis_o4/O4_ASU/O4.Sonify.ASU/Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "portal.audioIn.maxpat",
-				"bootpath" : "/Users/synthesis/syn_audioportal/o4.net_portal",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal/o4.net_portal",
 				"patcherrelativepath" : "../../o4.net_portal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o4.net_recv.maxpat",
-				"bootpath" : "/Users/synthesis/syn_audioportal/o4.net_portal",
+				"name" : "jmod.nav.stereo.rogs~.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.rogs~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.rogs~",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.nav.stereo.rogs~.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.rogs~",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.rogs~",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "portal.send.maxpat",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal/o4.net_portal",
+				"patcherrelativepath" : "../../o4.net_portal",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "portal.recv.maxpat",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal/o4.net_portal",
+				"patcherrelativepath" : "../../o4.net_portal",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jmod.input%.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.input%.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.input%.ui.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "portal.viprIn.maxpat",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal/o4.net_portal",
+				"patcherrelativepath" : "../../o4.net_portal",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "portal.viprOut.maxpat",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/syn_audioportal/o4.net_portal",
 				"patcherrelativepath" : "../../o4.net_portal",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1954,6 +2160,14 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jcom.pack≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rogs~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "zeroconf.browser.mxo",
 				"type" : "iLaX"
 			}
@@ -1966,7 +2180,19 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.pack≈.mxo",
+				"name" : "jcom.pass.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "vipr.mxo",
 				"type" : "iLaX"
 			}
  ]
